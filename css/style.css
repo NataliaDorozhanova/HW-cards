@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial Narrow, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  display: inline-block;
+  width: 1000px;
+  height: 775px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  position: relative;
+}
+.card_1 {
+  width: 235px;
+  height: 370px;
+  position: absolute;
+  left: 11px;
+  top: 11px;
+  border-radius: 13px;
+  border: 1px solid grey;
+}
+.card_2 {
+  width: 235px;
+  height: 370px;
+  position: absolute;
+  left: 258px;
+  top: 11px;
+  border-radius: 13px;
+  border: 1px solid grey;
+}
+.card_3 {
+  width: 235px;
+  height: 370px;
+  position: absolute;
+  right: 259px;
+  top: 11px;
+  border-radius: 13px;
+  border: 1px solid grey;
+}
+.card_4 {
+  width: 235px;
+  height: 370px;
+  position: absolute;
+  right: 11px;
+  top: 11px;
+  border-radius: 13px;
+  border: 1px solid grey;
+}
+.card_5 {
+  width: 235px;
+  height: 370px;
+  position: absolute;
+  left: 11px;
+  bottom: 11px;
+  border-radius: 13px;
+  border: 1px solid grey;
+}
+.card_6 {
+  width: 235px;
+  height: 370px;
+  position: absolute;
+  left: 258px;
+  bottom: 11px;
+  border-radius: 13px;
+  border: 1px solid grey;
+}
+.card_7 {
+  width: 235px;
+  height: 370px;
+  position: absolute;
+  right: 259px;
+  bottom: 11px;
+  border-radius: 13px;
+  border: 1px solid grey;
+}
+.card_8 {
+  width: 235px;
+  height: 370px;
+  position: absolute;
+  right: 11px;
+  bottom: 11px;
+  border-radius: 13px;
+  border: 1px solid grey;
+}
+.card_img {
+  max-width: 100%;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.join {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: gray;
+}
+.info {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+hr {
+  margin-top: 15px;
+}
+.fr {
+  font-size: 20px;
+  color: gray;
+  margin-left: 5px;
+}
+i {
+  font-family: fontawesome;
+  color: grey;
+  font-style: normal;
+  margin-left: 10px;
+}
